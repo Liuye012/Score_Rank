@@ -1,0 +1,19 @@
+#table_striped {
+  margin: 0 auto;
+  width: 980px;
+  border-collapse: collapse;
+  background-color: #FFF;
+}
+
+#table_striped td  {
+  text-align: center;
+  color: #F0F;
+  border-top-color: rgb(221, 221, 221);
+  border-top-style: solid;
+  border-top-width: 1px;
+  line-height: 40px;
+}
+
+#table_striped tbody tr:nth-of-type(odd) {
+  background-color: rgb(249, 249, 249);
+}
